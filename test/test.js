@@ -1,3 +1,5 @@
+//(Kemigisha Esther and Komuntale Elizabeth)
+
 // This is a test file for the multiply function.
 import { assert } from 'chai';
 import multiply from '../multiply.js';
