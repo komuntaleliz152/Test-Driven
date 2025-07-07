@@ -31,3 +31,16 @@ it('should return 1035 when multiplying 23 and 45', () => {
   });
 
 
+
+
+  //factorial
+  import { assert } from 'chai';
+import factorial from '../factorial.js';
+
+describe('Factorial', () => {
+  it('should return 1 for factorial of 0', () => {
+    assert.equal(factorial(0), 1);
+  });
+});
+
+
