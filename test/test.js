@@ -23,3 +23,9 @@ it('should return 4 when multiplying 2 and 2', () => {
   it('should return 16 when multiplying 4 and 4', () => {
     assert.equal(multiply(4, 4), 16);
   });
+// Test: multiplying 5 by 5 should return 25
+it('should return 1035 when multiplying 23 and 45', () => {
+    assert.equal(multiply(23, 45), 1035);
+  });
+
+
