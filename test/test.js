@@ -70,5 +70,9 @@ it('should return 6 for factorial of 3', () => {
   assert.equal(factorial(3), 6);
 });
 
+it('should return 24 for factorial of 4', () => {
+  assert.equal(factorial(4), 24);
+});
+
 
 
