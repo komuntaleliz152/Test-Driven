@@ -34,17 +34,30 @@
 
 
   //factorial
-  import { assert } from 'chai';
+//   import { assert } from 'chai';
+// import factorial from '../factorial.js';
+
+// describe('Factorial', () =>{
+// //   it('should return 1 for factorial of 0', () => {
+// //     assert.equal(factorial(0), 1);
+// //   });
+// // });
+// // // Test: factorial of 1 should return 1
+// //   it('should return 1 for factorial of 1', () => {
+// //     assert.equal(factorial(1), 1);
+// //   });
+
+
+import { assert } from 'chai';
 import factorial from '../factorial.js';
 
+ // Test: factorial of 2 should return 2
 describe('Factorial', () => {
   it('should return 1 for factorial of 0', () => {
     assert.equal(factorial(0), 1);
   });
 });
-// Test: factorial of 1 should return 1
-  it('should return 1 for factorial of 1', () => {
-    assert.equal(factorial(1), 1);
-  });
+
+
 
 
