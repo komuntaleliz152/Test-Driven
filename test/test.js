@@ -57,23 +57,23 @@ describe('Factorial', () => {
     assert.equal(factorial(0), 1);
   });
 });
-
+// Test: factorial of 1 should return 1
 it('should return 1 for factorial of 1', () => {
   assert.equal(factorial(1), 1);
 });
-
+// Test: factorial of 2 should return 2
 it('should return 2 for factorial of 2', () => {
   assert.equal(factorial(2), 2);
 });
-
+// Test: factorial of 3 should return 6
 it('should return 6 for factorial of 3', () => {
   assert.equal(factorial(3), 6);
 });
-
+// Test: factorial of 4 should return 24
 it('should return 24 for factorial of 4', () => {
   assert.equal(factorial(4), 24);
 });
-
+// Test: factorial of 5 should return 120
 it('should return 120 for factorial of 5', () => {
   assert.equal(factorial(5), 120);
 });
