@@ -100,6 +100,10 @@ it('should return 3 for F(4)', () => {
     assert.equal(fibonacci(4), 3);
   });
 
+// Test: Fibonacci of 5 should return 5
+ it('should return 5 for F(5)', () => {
+    assert.equal(fibonacci(5), 5);
+  });
 
 
 
