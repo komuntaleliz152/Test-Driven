@@ -90,6 +90,11 @@ it('should return 1 for F(1)', () => {
     assert.equal(fibonacci(2), 1);
   });
 
+// Test: Fibonacci of 3 should return 2
+ it('should return 2 for F(3)', () => {
+    assert.equal(fibonacci(3), 2);
+  });
+
 
 
 
