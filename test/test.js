@@ -84,6 +84,13 @@ it('should return 1 for F(1)', () => {
     assert.equal(fibonacci(1), 1);
   });
 
+ 
+// Test: Fibonacci of 2 should return 1
+  it('should return 1 for F(2)', () => {
+    assert.equal(fibonacci(2), 1);
+  });
+
+
 
 
 
