@@ -38,35 +38,57 @@
 
   //Exercise: Factorial Function Test
 
-import { assert } from 'chai';
-import factorial from '../factorial.js';
+// import { assert } from 'chai';
+// import factorial from '../factorial.js';
 
- // Test: factorial test return
-describe('Factorial', () => {
-  it('should return 1 for factorial of 0', () => {
-    assert.equal(factorial(0), 1);
+//  // Test: factorial test return
+// describe('Factorial', () => {
+//   it('should return 1 for factorial of 0', () => {
+//     assert.equal(factorial(0), 1);
+//   });
+// });
+// // Test: factorial of 1 should return 1
+// it('should return 1 for factorial of 1', () => {
+//   assert.equal(factorial(1), 1);
+// });
+// // Test: factorial of 2 should return 2
+// it('should return 2 for factorial of 2', () => {
+//   assert.equal(factorial(2), 2);
+// });
+// // Test: factorial of 3 should return 6
+// it('should return 6 for factorial of 3', () => {
+//   assert.equal(factorial(3), 6);
+// });
+// // Test: factorial of 4 should return 24
+// it('should return 24 for factorial of 4', () => {
+//   assert.equal(factorial(4), 24);
+// });
+// // Test: factorial of 5 should return 120
+// it('should return 120 for factorial of 5', () => {
+//   assert.equal(factorial(5), 120);
+// });
+
+
+//Exercise3 fibonacci Function Test
+import { assert } from 'chai';
+import fibonacci from '../fibonacci.js';
+
+describe('Fibonacci', () => {
+  it('should return 0 for F(0)', () => {
+    assert.equal(fibonacci(0), 0);
   });
 });
-// Test: factorial of 1 should return 1
-it('should return 1 for factorial of 1', () => {
-  assert.equal(factorial(1), 1);
-});
-// Test: factorial of 2 should return 2
-it('should return 2 for factorial of 2', () => {
-  assert.equal(factorial(2), 2);
-});
-// Test: factorial of 3 should return 6
-it('should return 6 for factorial of 3', () => {
-  assert.equal(factorial(3), 6);
-});
-// Test: factorial of 4 should return 24
-it('should return 24 for factorial of 4', () => {
-  assert.equal(factorial(4), 24);
-});
-// Test: factorial of 5 should return 120
-it('should return 120 for factorial of 5', () => {
-  assert.equal(factorial(5), 120);
-});
+
+
+it('should return 1 for F(1)', () => {
+    assert.equal(fibonacci(1), 1);
+  });
+
+
+
+
+
+
 
 
 
