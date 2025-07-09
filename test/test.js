@@ -79,7 +79,7 @@ describe('Fibonacci', () => {
   });
 });
 
-
+// Test: Fibonacci of 1 should return 1
 it('should return 1 for F(1)', () => {
     assert.equal(fibonacci(1), 1);
   });
